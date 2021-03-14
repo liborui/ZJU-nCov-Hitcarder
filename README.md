@@ -45,6 +45,20 @@
    $ python3 daka.py
    ```
 
+5. Docker化部署
+
+5.1 构建
+    ```bash
+    $ docker build -t zju-health-daka:latest .
+    ```
+5.2 启动
+    ```bash
+    $ docker run -d zju-health-daka:latest
+    ```
+
+5.3 查看Log
+    ```bash
+    $ docker logs [ContainerID]
 
 ## Tips
 
